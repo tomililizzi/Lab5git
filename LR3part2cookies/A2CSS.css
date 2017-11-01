@@ -1,0 +1,34 @@
+body {
+	line-height: 40px;
+}
+h1 {
+	text-align: center;
+	color: indianred;
+}
+label {
+	color: #377B7B;
+	font-size: 20px;
+	position: relative;
+	left: 30%;
+}
+p {
+	text-align: center;
+	color: indianred;
+	font-size: 20px;
+	width:600px;
+	height:80px;
+	position:relative;
+	left: 28%;
+}
+.right {
+	position: relative;
+	left: 30px;
+}
+.right1 {
+	position: relative;
+	left: 112px;
+}
+.right2 {
+	position: relative;
+	left: 118px;
+}

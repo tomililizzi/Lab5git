@@ -1,0 +1,45 @@
+body {
+	line-height: 40px;
+}
+h1 {
+	text-align: center;
+	color: indianred;
+}
+label {
+	color: #377B7B;
+	font-size: 20px;
+}
+p {
+	text-align: center;
+	color: indianred;
+	font-size: 20px;
+	width:600px;
+	height:80px;
+	position:relative;
+	left: 28%;
+}
+.right {
+	position: relative;
+	left: 44.5px;
+}
+.answer {
+	width:500px;
+	height:250px;
+	position: absolute;
+    left: 10%;
+}
+.answer1 {
+	width:500px;
+	height:300px;
+	position: absolute;
+	top: 53%;
+	left: 20%;
+}
+.right1 {
+	position: relative;
+	left: 28px;
+}
+.right2 {
+	position: relative;
+	left: 122px;
+}

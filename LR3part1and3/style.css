@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+}
+
+#login {
+    border:30px;
+    margin: -150px 0 0 -230px;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+}
+
+#reg_form {
+    border:30px;
+    visibility:hidden;
+    margin: 0px 0 0 -230px;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#inputs input {
+    padding: 15px 15px 15px 30px;
+    margin: 0 0 10px 0;
+    width: 353px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#username {
+    background-position: 5px -2px
+}
+
+#password {
+    background-position: 5px -52px
+}
+
+#inputs input:focus {
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+#actions{
+    margin: 25px 0 0 100px;
+}
+
+#submit
+{
+    content-align:center;
+    background-color: #ffb94b;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Trebuchet MS;
+    color: #8f5a0a;
+}
+
+#submit:hover,#submit:focus {
+    background-color: #fddb6f;
+}
+
+#submit:active {
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+#actions a {
+    color: #3151A2;
+    line-height: 35px;
+    margin-left: 10px;
+}

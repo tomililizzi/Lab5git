@@ -1,0 +1,37 @@
+body {
+	line-height: 40px;
+}
+h1 {
+	text-align: center;
+	color: indianred;
+}
+label {
+	color: #377B7B;
+	font-size: 20px;
+	position: relative;
+	left: 30%;
+}
+p {
+	text-align: center;
+	color: indianred;
+	font-size: 20px;
+	width:540px;
+	height:145px;
+	position:relative;
+	left: 30%;
+}
+.right {
+	position: relative;
+	left: 186px;
+}
+.right1 {
+	position: relative;
+	left: 137px;
+}
+.qwerty {
+	position: relative;
+	left: 50%;
+	letter-spacing: 5px;
+	color: #377B7B;
+	font-size: 20px;
+}
